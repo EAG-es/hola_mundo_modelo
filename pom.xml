@@ -75,5 +75,4 @@
             <version>1.0</version>
         </dependency>
     </dependencies>
-    <description>-Duser.language=fr</description>
 </project>
