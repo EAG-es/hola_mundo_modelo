@@ -64,7 +64,9 @@ public class Hola_mundo_modelo extends iniciales {
                 // Parámetro de java para cambiar el lenguaje de la JVM: -Duser.language=en
                 System.out.println(tr.in(in, "¡Hola Mundo!"));
                 // Fin del código propio de la aplicación
-                terminar(ok);
+                oks ok_fin = new oks();
+                terminar(ok_fin);
+                ok.setTxt(ok.getTxt(), ok_fin.getTxt());
             }
             return ok.es;
         } catch (Exception e) {
