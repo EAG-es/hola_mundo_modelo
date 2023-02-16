@@ -66,7 +66,9 @@ public class Hola_mundo_modelo extends iniciales {
                 // Fin del código propio de la aplicación
                 oks ok_fin = new oks();
                 terminar(ok_fin);
-                ok.setTxt(ok.getTxt(), ok_fin.getTxt());
+                if (ok_fin.es == false) {
+                    ok.setTxt(ok.getTxt(), ok_fin.getTxt());
+                }
             }
             return ok.es;
         } catch (Exception e) {
