@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package inclui.hola_mundo_modelo;
 
 import innui.modelos.configuraciones.ResourceBundles;
@@ -88,7 +84,7 @@ public class Hola_mundo_modelo extends iniciales {
     
     @Override
     public boolean terminar(oks ok, Object... extra_array) throws Exception {
-        // Iniciar clase principal de la librería
+        // Terminar clase principal de la librería
         if (ok.es == false) { return ok.es; }
         _terminar_desde_clase(modelos.class, ok);
         if (ok.es == false) { return ok.es; }
